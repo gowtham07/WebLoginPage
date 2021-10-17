@@ -60,17 +60,6 @@ if(isset($_POST['addi']))
 
 
 
-<!-- // Set up the values for the game...
-// 0 is Rock, 1 is Paper, and 2 is Scissors
-
- // Hard code the computer to rock
-// TODO: Make the computer be random
-// $computer = rand(0,2);
-
-// This function takes as its input the computer and human play
-// and returns "Tie", "You Lose", "You Win" depending on play
-// where "You" is the human being addressed by the computer
- -->
 
 
 
@@ -120,17 +109,7 @@ else
 
 
 ?>
-<!-- <form method="post">
-<select name="human">
-<option value="-1">Select</option>
-<option value="0">Rock</option>
-<option value="1">Paper</option>
-<option value="2">Scissors</option>
-<option value="3">Test</option>
-</select>
-<input type="submit" value="Play">
-<input type="submit" name="logout" value="Logout">
-</form> -->
+
 
 <form method="POST">
 <label for="name_auto">make</label>

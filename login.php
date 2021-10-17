@@ -2,7 +2,7 @@
 
 require_once "pdo.php";
 if ( isset($_POST['cancel'] ) ) {
-    // Redirect the browser to game.php
+    // Redirect the browser to autos.php
     header("Location: index.php");
     return;
 }
@@ -51,7 +51,7 @@ if ( isset($_POST['who']) && isset($_POST['pass']) )
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Chuck Severance's Login Page</title>
+<title>gowtham</title>
 </head>
 <body>
 <div class="container">
